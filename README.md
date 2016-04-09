@@ -1,3 +1,4 @@
-Wallethub Angular Test
+Angular 1.4/ES6/Webpack/ui-router/Sass/Bourbon/Neat Samples
 
-Angular 1.4/ES6/Webpack
+URL:
+http://angulares6.chipmoeser.com/
