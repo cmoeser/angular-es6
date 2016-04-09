@@ -1,0 +1,1159 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          307,
+          319
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        307,
+        320
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 13
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *   Defines a Accordian\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+          "range": [
+            0,
+            305
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "element",
+            "range": [
+              333,
+              340
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 9
+              },
+              "end": {
+                "line": 13,
+                "column": 16
+              }
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "name": "element",
+            "range": [
+              333,
+              340
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 9
+              },
+              "end": {
+                "line": 13,
+                "column": 16
+              }
+            }
+          },
+          "range": [
+            333,
+            340
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 9
+            },
+            "end": {
+              "line": 13,
+              "column": 16
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "angular",
+        "raw": "'angular'",
+        "range": [
+          348,
+          357
+        ],
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 24
+          },
+          "end": {
+            "line": 13,
+            "column": 33
+          }
+        }
+      },
+      "range": [
+        324,
+        358
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "FeatureBase",
+            "range": [
+              367,
+              378
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 7
+              },
+              "end": {
+                "line": 14,
+                "column": 18
+              }
+            }
+          },
+          "range": [
+            367,
+            378
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 18
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "lib/FeatureBase",
+        "raw": "'lib/FeatureBase'",
+        "range": [
+          384,
+          401
+        ],
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 24
+          },
+          "end": {
+            "line": 14,
+            "column": 41
+          }
+        }
+      },
+      "range": [
+        360,
+        402
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "AccordianDirective",
+            "range": [
+              411,
+              429
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 7
+              },
+              "end": {
+                "line": 15,
+                "column": 25
+              }
+            }
+          },
+          "range": [
+            411,
+            429
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "../directives/AccordianDirective",
+        "raw": "'../directives/AccordianDirective'",
+        "range": [
+          435,
+          469
+        ],
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 31
+          },
+          "end": {
+            "line": 15,
+            "column": 65
+          }
+        }
+      },
+      "range": [
+        404,
+        470
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "events",
+            "range": [
+              479,
+              485
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 7
+              },
+              "end": {
+                "line": 16,
+                "column": 13
+              }
+            }
+          },
+          "range": [
+            479,
+            485
+          ],
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 13
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "fw/service/Events",
+        "raw": "'fw/service/Events'",
+        "range": [
+          491,
+          510
+        ],
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 19
+          },
+          "end": {
+            "line": 16,
+            "column": 38
+          }
+        }
+      },
+      "range": [
+        472,
+        511
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 39
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * Main class for Accordian module \r\n * Creates instance of AccordianDirective and assigns it to the .directive property \r\n ",
+          "range": [
+            513,
+            644
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "Feature",
+          "range": [
+            668,
+            675
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 22
+            },
+            "end": {
+              "line": 21,
+              "column": 29
+            }
+          }
+        },
+        "superClass": {
+          "type": "Identifier",
+          "name": "FeatureBase",
+          "range": [
+            684,
+            695
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 38
+            },
+            "end": {
+              "line": 21,
+              "column": 49
+            }
+          }
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  798,
+                  809
+                ],
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Super",
+                          "range": [
+                            823,
+                            828
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 27,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 27,
+                              "column": 13
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "accordianModule",
+                            "raw": "'accordianModule'",
+                            "range": [
+                              829,
+                              846
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 27,
+                                "column": 14
+                              },
+                              "end": {
+                                "line": 27,
+                                "column": 31
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          823,
+                          847
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 27,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 27,
+                            "column": 32
+                          }
+                        }
+                      },
+                      "range": [
+                        823,
+                        848
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 27,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 27,
+                          "column": 33
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    812,
+                    855
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 26,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 28,
+                      "column": 4
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  809,
+                  855
+                ],
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 4
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                798,
+                855
+              ],
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 1
+                },
+                "end": {
+                  "line": 28,
+                  "column": 4
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Constructor for Accordian feature\r\n\t * @param {[[Type]]} events [[Description]]\r\n\t ",
+                  "range": [
+                    700,
+                    794
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 25,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "beforeStart",
+                "range": [
+                  863,
+                  874
+                ],
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 15
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "range": [
+                    877,
+                    879
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 18
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 20
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  874,
+                  879
+                ],
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 20
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                863,
+                879
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 4
+                },
+                "end": {
+                  "line": 30,
+                  "column": 20
+                }
+              },
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n     * Execute class called by app Main. Creates new instance of AccordianDirective and assigns it to the .directive property\r\n     ",
+                  "range": [
+                    885,
+                    1024
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 31,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "execute",
+                "range": [
+                  1030,
+                  1037
+                ],
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 34,
+                    "column": 11
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "ThisExpression",
+                            "range": [
+                              1045,
+                              1049
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 6
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "directive",
+                            "range": [
+                              1050,
+                              1059
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 7
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 16
+                              }
+                            }
+                          },
+                          "range": [
+                            1045,
+                            1059
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 35,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 35,
+                              "column": 16
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "accordianDirective",
+                            "raw": "'accordianDirective'",
+                            "range": [
+                              1060,
+                              1080
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 17
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 37
+                              }
+                            }
+                          },
+                          {
+                            "type": "ArrowFunctionExpression",
+                            "id": null,
+                            "params": [],
+                            "body": {
+                              "type": "NewExpression",
+                              "callee": {
+                                "type": "Identifier",
+                                "name": "AccordianDirective",
+                                "range": [
+                                  1092,
+                                  1110
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 35,
+                                    "column": 49
+                                  },
+                                  "end": {
+                                    "line": 35,
+                                    "column": 67
+                                  }
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "events",
+                                  "range": [
+                                    1111,
+                                    1117
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 35,
+                                      "column": 68
+                                    },
+                                    "end": {
+                                      "line": 35,
+                                      "column": 74
+                                    }
+                                  }
+                                }
+                              ],
+                              "range": [
+                                1088,
+                                1118
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 35,
+                                  "column": 45
+                                },
+                                "end": {
+                                  "line": 35,
+                                  "column": 75
+                                }
+                              }
+                            },
+                            "generator": false,
+                            "expression": true,
+                            "range": [
+                              1082,
+                              1118
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 39
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 75
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          1045,
+                          1119
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 35,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 35,
+                            "column": 76
+                          }
+                        }
+                      },
+                      "range": [
+                        1045,
+                        1120
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 35,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 35,
+                          "column": 77
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    1040,
+                    1129
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 34,
+                      "column": 14
+                    },
+                    "end": {
+                      "line": 36,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  1037,
+                  1129
+                ],
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                1030,
+                1129
+              ],
+              "loc": {
+                "start": {
+                  "line": 34,
+                  "column": 4
+                },
+                "end": {
+                  "line": 36,
+                  "column": 5
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n     * Execute class called by app Main. Creates new instance of AccordianDirective and assigns it to the .directive property\r\n     ",
+                  "range": [
+                    885,
+                    1024
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 31,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "static": false
+            }
+          ],
+          "range": [
+            696,
+            1132
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 50
+            },
+            "end": {
+              "line": 37,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          662,
+          1132
+        ],
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 16
+          },
+          "end": {
+            "line": 37,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\r\n * Main class for Accordian module \r\n * Creates instance of AccordianDirective and assigns it to the .directive property \r\n ",
+            "range": [
+              513,
+              644
+            ],
+            "loc": {
+              "start": {
+                "line": 17,
+                "column": 0
+              },
+              "end": {
+                "line": 20,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        646,
+        1132
+      ],
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * Main class for Accordian module \r\n * Creates instance of AccordianDirective and assigns it to the .directive property \r\n ",
+          "range": [
+            513,
+            644
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    307,
+    1132
+  ],
+  "loc": {
+    "start": {
+      "line": 11,
+      "column": 0
+    },
+    "end": {
+      "line": 37,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *   Defines a Accordian\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+      "range": [
+        0,
+        305
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n * Main class for Accordian module \r\n * Creates instance of AccordianDirective and assigns it to the .directive property \r\n ",
+      "range": [
+        513,
+        644
+      ],
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * Constructor for Accordian feature\r\n\t * @param {[[Type]]} events [[Description]]\r\n\t ",
+      "range": [
+        700,
+        794
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "end": {
+          "line": 25,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n     * Execute class called by app Main. Creates new instance of AccordianDirective and assigns it to the .directive property\r\n     ",
+      "range": [
+        885,
+        1024
+      ],
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 7
+        }
+      }
+    }
+  ]
+}

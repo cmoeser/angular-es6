@@ -1,0 +1,934 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          317,
+          329
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        317,
+        330
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 13
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *  Defines a CalcsController\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+          "range": [
+            0,
+            315
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "SCOPE",
+            "range": [
+              340,
+              345
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 6
+              },
+              "end": {
+                "line": 13,
+                "column": 11
+              }
+            }
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "WeakMap",
+              "range": [
+                352,
+                359
+              ],
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 18
+                },
+                "end": {
+                  "line": 13,
+                  "column": 25
+                }
+              }
+            },
+            "arguments": [],
+            "range": [
+              348,
+              361
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 14
+              },
+              "end": {
+                "line": 13,
+                "column": 27
+              }
+            }
+          },
+          "range": [
+            340,
+            361
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 6
+            },
+            "end": {
+              "line": 13,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "kind": "const",
+      "range": [
+        334,
+        362
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 28
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * CalcsController a controller for the home feature/tab.\r\n * Handles event delegation between child directives\r\n ",
+          "range": [
+            364,
+            485
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "CalcsController",
+          "range": [
+            508,
+            523
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 21
+            },
+            "end": {
+              "line": 18,
+              "column": 36
+            }
+          }
+        },
+        "superClass": null,
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  649,
+                  660
+                ],
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "$scope",
+                    "range": [
+                      661,
+                      667
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 24,
+                        "column": 13
+                      },
+                      "end": {
+                        "line": 24,
+                        "column": 19
+                      }
+                    }
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "vm",
+                            "range": [
+                              678,
+                              680
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 25,
+                                "column": 6
+                              },
+                              "end": {
+                                "line": 25,
+                                "column": 8
+                              }
+                            }
+                          },
+                          "init": {
+                            "type": "ThisExpression",
+                            "range": [
+                              683,
+                              687
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 25,
+                                "column": 11
+                              },
+                              "end": {
+                                "line": 25,
+                                "column": 15
+                              }
+                            }
+                          },
+                          "range": [
+                            678,
+                            687
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 25,
+                              "column": 6
+                            },
+                            "end": {
+                              "line": 25,
+                              "column": 15
+                            }
+                          }
+                        }
+                      ],
+                      "kind": "var",
+                      "range": [
+                        674,
+                        688
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 25,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 25,
+                          "column": 16
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "Identifier",
+                            "name": "SCOPE",
+                            "range": [
+                              692,
+                              697
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 26,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 26,
+                                "column": 7
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "set",
+                            "range": [
+                              698,
+                              701
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 26,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 26,
+                                "column": 11
+                              }
+                            }
+                          },
+                          "range": [
+                            692,
+                            701
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 26,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 26,
+                              "column": 11
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "ThisExpression",
+                            "range": [
+                              702,
+                              706
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 26,
+                                "column": 12
+                              },
+                              "end": {
+                                "line": 26,
+                                "column": 16
+                              }
+                            }
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "$scope",
+                            "range": [
+                              708,
+                              714
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 26,
+                                "column": 18
+                              },
+                              "end": {
+                                "line": 26,
+                                "column": 24
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          692,
+                          715
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 26,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 26,
+                            "column": 25
+                          }
+                        }
+                      },
+                      "range": [
+                        692,
+                        716
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 26,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 26,
+                          "column": 26
+                        }
+                      },
+                      "trailingComments": [
+                        {
+                          "type": "Line",
+                          "value": "this.addListeners();",
+                          "range": [
+                            720,
+                            742
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 27,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 27,
+                              "column": 24
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "range": [
+                    669,
+                    746
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 24,
+                      "column": 21
+                    },
+                    "end": {
+                      "line": 28,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  660,
+                  746
+                ],
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                649,
+                746
+              ],
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 1
+                },
+                "end": {
+                  "line": 28,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Calcs controller constructor function\r\n\t * @param {[[Type]]} $scope     [[Description]]\r\n\t ",
+                  "range": [
+                    528,
+                    630
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 22,
+                      "column": 4
+                    }
+                  }
+                },
+                {
+                  "type": "Block",
+                  "value": "@ngInject",
+                  "range": [
+                    633,
+                    646
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 23,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 23,
+                      "column": 14
+                    }
+                  }
+                }
+              ],
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Returns name of CalcsController\r\n\t * @returns {string} - 'CalcsController'\r\n\t ",
+                  "range": [
+                    751,
+                    840
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "run",
+                "range": [
+                  843,
+                  846
+                ],
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 34,
+                    "column": 4
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "Literal",
+                        "value": "CalcsController",
+                        "raw": "'CalcsController'",
+                        "range": [
+                          861,
+                          878
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 35,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 35,
+                            "column": 26
+                          }
+                        }
+                      },
+                      "range": [
+                        854,
+                        879
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 35,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 35,
+                          "column": 27
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    849,
+                    883
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 34,
+                      "column": 7
+                    },
+                    "end": {
+                      "line": 36,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  846,
+                  883
+                ],
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                843,
+                883
+              ],
+              "loc": {
+                "start": {
+                  "line": 34,
+                  "column": 1
+                },
+                "end": {
+                  "line": 36,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Line",
+                  "value": "this.addListeners();",
+                  "range": [
+                    720,
+                    742
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 27,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 24
+                    }
+                  }
+                },
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Returns name of CalcsController\r\n\t * @returns {string} - 'CalcsController'\r\n\t ",
+                  "range": [
+                    751,
+                    840
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            }
+          ],
+          "range": [
+            524,
+            887
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 37
+            },
+            "end": {
+              "line": 37,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          502,
+          887
+        ],
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 15
+          },
+          "end": {
+            "line": 37,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\r\n * CalcsController a controller for the home feature/tab.\r\n * Handles event delegation between child directives\r\n ",
+            "range": [
+              364,
+              485
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 0
+              },
+              "end": {
+                "line": 17,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        487,
+        887
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * CalcsController a controller for the home feature/tab.\r\n * Handles event delegation between child directives\r\n ",
+          "range": [
+            364,
+            485
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    317,
+    887
+  ],
+  "loc": {
+    "start": {
+      "line": 11,
+      "column": 0
+    },
+    "end": {
+      "line": 37,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *  Defines a CalcsController\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+      "range": [
+        0,
+        315
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n * CalcsController a controller for the home feature/tab.\r\n * Handles event delegation between child directives\r\n ",
+      "range": [
+        364,
+        485
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * Calcs controller constructor function\r\n\t * @param {[[Type]]} $scope     [[Description]]\r\n\t ",
+      "range": [
+        528,
+        630
+      ],
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "line": 22,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "@ngInject",
+      "range": [
+        633,
+        646
+      ],
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 1
+        },
+        "end": {
+          "line": 23,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "this.addListeners();",
+      "range": [
+        720,
+        742
+      ],
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * Returns name of CalcsController\r\n\t * @returns {string} - 'CalcsController'\r\n\t ",
+      "range": [
+        751,
+        840
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 1
+        },
+        "end": {
+          "line": 33,
+          "column": 4
+        }
+      }
+    }
+  ]
+}

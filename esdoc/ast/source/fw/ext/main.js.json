@@ -1,0 +1,619 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          127,
+          139
+        ],
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "line": 8,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        127,
+        140
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 13
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n *  Return all information of external angular resources\r\n *\r\n *  @author  Chip\r\n *  @date    March,  13,  2016\r\n *\r\n ",
+          "range": [
+            0,
+            125
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "angular-animate",
+        "raw": "'angular-animate'",
+        "range": [
+          149,
+          166
+        ],
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 24
+          }
+        }
+      },
+      "range": [
+        142,
+        167
+      ],
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "angular-ui-router",
+        "raw": "'angular-ui-router'",
+        "range": [
+          176,
+          195
+        ],
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 26
+          }
+        }
+      },
+      "range": [
+        169,
+        196
+      ],
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "angular-sanitize",
+        "raw": "'angular-sanitize'",
+        "range": [
+          205,
+          223
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 25
+          }
+        }
+      },
+      "range": [
+        198,
+        224
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "angular-theme-spinner",
+        "raw": "'angular-theme-spinner'",
+        "range": [
+          233,
+          256
+        ],
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 30
+          }
+        }
+      },
+      "range": [
+        226,
+        257
+      ],
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "angular-smart-table",
+        "raw": "'angular-smart-table'",
+        "range": [
+          266,
+          287
+        ],
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 28
+          }
+        }
+      },
+      "range": [
+        259,
+        288
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "angular-sweetnotifier",
+        "raw": "'angular-sweetnotifier'",
+        "range": [
+          297,
+          320
+        ],
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 7
+          },
+          "end": {
+            "line": 14,
+            "column": 30
+          }
+        }
+      },
+      "range": [
+        290,
+        321
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "angular-toArrayFilter",
+        "raw": "'angular-toArrayFilter'",
+        "range": [
+          330,
+          353
+        ],
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 30
+          }
+        }
+      },
+      "range": [
+        323,
+        354
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "ng-currency",
+        "raw": "'ng-currency'",
+        "range": [
+          363,
+          376
+        ],
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 7
+          },
+          "end": {
+            "line": 16,
+            "column": 20
+          }
+        }
+      },
+      "range": [
+        356,
+        378
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 0
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "lodash",
+        "raw": "'lodash'",
+        "range": [
+          385,
+          393
+        ],
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 7
+          },
+          "end": {
+            "line": 17,
+            "column": 15
+          }
+        }
+      },
+      "range": [
+        378,
+        394
+      ],
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "Literal",
+            "value": "ngAnimate",
+            "raw": "'ngAnimate'",
+            "range": [
+              420,
+              431
+            ],
+            "loc": {
+              "start": {
+                "line": 20,
+                "column": 4
+              },
+              "end": {
+                "line": 20,
+                "column": 15
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "value": "ui.router",
+            "raw": "'ui.router'",
+            "range": [
+              438,
+              449
+            ],
+            "loc": {
+              "start": {
+                "line": 21,
+                "column": 4
+              },
+              "end": {
+                "line": 21,
+                "column": 15
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "value": "ngSanitize",
+            "raw": "'ngSanitize'",
+            "range": [
+              457,
+              469
+            ],
+            "loc": {
+              "start": {
+                "line": 22,
+                "column": 4
+              },
+              "end": {
+                "line": 22,
+                "column": 16
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "value": "angular-sweetnotifier",
+            "raw": "'angular-sweetnotifier'",
+            "range": [
+              476,
+              499
+            ],
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 4
+              },
+              "end": {
+                "line": 23,
+                "column": 27
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "value": "angular-theme-spinner",
+            "raw": "'angular-theme-spinner'",
+            "range": [
+              506,
+              529
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 4
+              },
+              "end": {
+                "line": 24,
+                "column": 27
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "value": "angular-toArrayFilter",
+            "raw": "'angular-toArrayFilter'",
+            "range": [
+              533,
+              556
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 1
+              },
+              "end": {
+                "line": 25,
+                "column": 24
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "value": "smart-table",
+            "raw": "'smart-table'",
+            "range": [
+              563,
+              576
+            ],
+            "loc": {
+              "start": {
+                "line": 26,
+                "column": 4
+              },
+              "end": {
+                "line": 26,
+                "column": 17
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "value": "ng-currency",
+            "raw": "'ng-currency'",
+            "range": [
+              580,
+              593
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 1
+              },
+              "end": {
+                "line": 27,
+                "column": 14
+              }
+            }
+          }
+        ],
+        "range": [
+          413,
+          596
+        ],
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 15
+          },
+          "end": {
+            "line": 28,
+            "column": 1
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "range": [
+        398,
+        597
+      ],
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 2
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    127,
+    597
+  ],
+  "loc": {
+    "start": {
+      "line": 8,
+      "column": 0
+    },
+    "end": {
+      "line": 28,
+      "column": 2
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\r\n *  Return all information of external angular resources\r\n *\r\n *  @author  Chip\r\n *  @date    March,  13,  2016\r\n *\r\n ",
+      "range": [
+        0,
+        125
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

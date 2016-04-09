@@ -1,0 +1,72 @@
+@font-face {
+   font-family: 'footy-icons';
+   src: url(data:font/truetype;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBSoAAAC8AAAAYGNtYXAXVtKHAAABHAAAAFRnYXNwAAAAEAAAAXAAAAAIZ2x5Zp+o6QcAAAF4AAABbGhlYWQHvyPEAAAC5AAAADZoaGVhBscDxgAAAxwAAAAkaG10eAoAAIcAAANAAAAAFGxvY2EAKADKAAADVAAAAAxtYXhwAAkAaAAAA2AAAAAgbmFtZZlKCfsAAAOAAAABhnBvc3QAAwAAAAAFCAAAACAAAwMAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADpAAPA/8AAQAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAADAAAAAwAAABwAAQADAAAAHAADAAEAAAAcAAQAOAAAAAoACAACAAIAAQAg6QD//f//AAAAAAAg6QD//f//AAH/4xcEAAMAAQAAAAAAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAADAIf/3wMFA7AACwBZAGUAAAEUBiMiJjU0NjMyFgEmBgcGFh8BFjY/AR8BHgEzOgE3PgEvAS4BLwE3MDY1PgE3PgExNiYnJgYHDgEHJiIHDgEHIgYVDgEHDgEXHgEzMjY3PgE3PgE3BzMHJwEUBiMiJjU0NjMyFgJ8KR4dKSkdHin+ThEnCwsJEYsQJQyrhBQBHBMBAgEUGgIUAQUEbAgDCxsSGysIBAwLGwgbOxcdSRgJCwMBAitcDQwIBgQRCQMIAwclOgIEAgQBjmYBjCwgHy0tHyAsA2kdKSkdHikp/e4LCRERJwtZCgYP3avsExoBAR8U+gcNBqPeEQwMIhgkOgwbCAcECyZOHAMFAQcFAgE8dgkHGQwJCgICAyJMAwUDe9ZC/rYfLS0fICwsAAAAAQAAAAEAAE4KL/tfDzz1AAsEAAAAAADSzW+cAAAAANLNb5wAAP/fAwUDsAAAAAgAAgAAAAAAAAABAAADwP/AAAAEAAAAAAADBQABAAAAAAAAAAAAAAAAAAAABQQAAAAAAAAAAAAAAAIAAAAEAACHAAAAAAAKABQAHgC2AAEAAAAFAGYAAwAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQAHAAAAAQAAAAAAAgAHAGAAAQAAAAAAAwAHADYAAQAAAAAABAAHAHUAAQAAAAAABQALABUAAQAAAAAABgAHAEsAAQAAAAAACgAaAIoAAwABBAkAAQAOAAcAAwABBAkAAgAOAGcAAwABBAkAAwAOAD0AAwABBAkABAAOAHwAAwABBAkABQAWACAAAwABBAkABgAOAFIAAwABBAkACgA0AKRpY29tb29uAGkAYwBvAG0AbwBvAG5WZXJzaW9uIDEuMABWAGUAcgBzAGkAbwBuACAAMQAuADBpY29tb29uAGkAYwBvAG0AbwBvAG5pY29tb29uAGkAYwBvAG0AbwBvAG5SZWd1bGFyAFIAZQBnAHUAbABhAHJpY29tb29uAGkAYwBvAG0AbwBvAG5Gb250IGdlbmVyYXRlZCBieSBJY29Nb29uLgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format('truetype');  
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="footy-"], [class*=" footy-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'footy-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    //line-height: 18;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+// Please update this map if you add new icons - add the class and content value after the existing ones
+// NEW: Icon styles are happening dynamically! No need to update two things -
+// just add the unicode point and class name (minus the "cm-" and "-icon") of any new icons
+// to this map, and the styles will automatically be created for it.
+// This gives us some flexibility and means we can do things like reorder,
+// rename, or dynamically access any icon as needed. Plus it's easy to read.
+
+@function unicode($str){
+    @return unquote("\"") + $str + unquote("\"");
+}
+
+$icons: (
+	footballer: \e900,
+);
+
+// This loop generates css classes:
+// Just keep the map current please!
+
+@each $name, $content in $icons {
+	.footy-#{$name}-icon:before {
+		content: unicode($content);
+	}
+}
+
+// @function get-icon --- returns the unicode point mapped to the given icon name/class, from the $icons map ^
+// which might be useful since you can't do @extend .cm-whatever-icon inside a media query
+// future goal: expand this into a fully dynamic mixin that can replace icomoon's generated style rules
+// Usage:
+// .special-icon-situation:after { font-family: 'footy-icons'; content: get-icon(arrow-down); }
+
+@function get-icon($name) {
+	@if map-has-key($icons, $name) {
+    	$icon-code: map_get($icons, $name);
+    	@return quote(unicode($icon-code));
+    }
+    @else {
+		@warn "No icon stored under that name - make sure to update the $icons map in icons.scss whenever you add a new icon! \a
+	Current icons: \a
+	#{map_keys($icons)} \a
+	";
+	}
+}
+// A shorter way of doing the same - use this if you don't want to explicitly
+// give your element a "cm-whatever-icon" class in the markup
+
+@mixin icon($name) {
+	&:before {
+		font-family: 'footy-icons';
+		content: get-icon($name);
+	}
+}

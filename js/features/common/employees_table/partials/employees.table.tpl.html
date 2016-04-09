@@ -1,0 +1,29 @@
+<div class="flex-box">
+	<h2>Employee Table</h2>
+	<div>
+		<form class="search-bar" role="search">
+			<input type="search" placeholder="Filter by last name" ng-model="vm.searchTable"/>
+			<button type="submit">
+				<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon-black.png" alt="Search Icon">
+			</button>
+		</form>
+	</div>
+	<table class="tables">
+		<thead>
+			<tr>
+				<th ng-click="changeSorting('first_name'); fn_selected = sort.column == 'first_name' && sort.descending === true" class="sortDesc sortable">First Name<span ng-class="fn_selected ? 'arrow-down' : 'arrow-up'"></span></th>
+				<th ng-click="changeSorting('last_name'); ln_selected = sort.column == 'last_name' && sort.descending === true" class="sortDesc sortable">Last Name<span ng-class="ln_selected ? 'arrow-down' : 'arrow-up'"></span></th>
+				<th ng-click="changeSorting('company'); cp_selected = sort.column == 'company' && sort.descending === true" class="sortDesc sortable" class="sortDesc sortable">Company<span ng-class="cp_selected ? 'arrow-down' : 'arrow-up'"></span></th>
+				<th>Set Employee</th>
+			</tr>
+		</thead>
+		<tbody id="employeessTable" ng-cloak>
+			<tr ng-repeat="employees in vm.tables | toArray | orderBy: sort.column : sort.descending | filter : vm.searchTable">
+				<td>{{ employees.first_name}}</td>
+				<td>{{ employees.last_name }}</td>
+				<td>{{ employees.company }}</td>
+				<td class="buttons"><button ng-click="vm.setEmployee(employees.id)">Set Employee</button></td>
+			</tr>
+		</tbody>
+	</table>
+</div>

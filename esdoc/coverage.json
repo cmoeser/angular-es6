@@ -1,0 +1,362 @@
+{
+  "coverage": "53.41%",
+  "expectCount": 234,
+  "actualCount": 125,
+  "files": {
+    "js/features/common/ui/Footer.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        24
+      ]
+    },
+    "js/features/common/ui/RouteIndicator.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        20,
+        14
+      ]
+    },
+    "js/features/common/ui/TopNavbar.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        26
+      ]
+    },
+    "js/features/about/controller/AboutController.js": {
+      "expectCount": 8,
+      "actualCount": 4,
+      "undocumentLines": [
+        30,
+        29,
+        27,
+        26
+      ]
+    },
+    "js/features/about/directives/AboutDirective.js": {
+      "expectCount": 7,
+      "actualCount": 3,
+      "undocumentLines": [
+        26,
+        27,
+        25,
+        24
+      ]
+    },
+    "js/main.js": {
+      "expectCount": 15,
+      "actualCount": 10,
+      "undocumentLines": [
+        72,
+        126,
+        30,
+        43,
+        31
+      ]
+    },
+    "js/fw/lib/AppHttpResponseInterceptor.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        17,
+        61
+      ]
+    },
+    "js/features/calcs/controller/CalcsController.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "js/features/calcs/directives/CalcsDirective.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        26,
+        25
+      ]
+    },
+    "js/fw/config/AppConfig.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        26
+      ]
+    },
+    "js/fw/config/RouterConfig.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        17,
+        67
+      ]
+    },
+    "js/fw/config/NotifierConfig.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        40
+      ]
+    },
+    "js/fw/config/SSOConfig.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "js/fw/lib/ConfiguratorBase.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        14,
+        16,
+        25,
+        17,
+        12,
+        21,
+        13,
+        18
+      ]
+    },
+    "js/features/common/currency_input/directives/CurrencyInputDirective.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        12,
+        11
+      ]
+    },
+    "js/features/employees/directives/EmployeesDirective.js": {
+      "expectCount": 5,
+      "actualCount": 2,
+      "undocumentLines": [
+        28,
+        25,
+        24
+      ]
+    },
+    "js/fw/service/EmployeesService.js": {
+      "expectCount": 9,
+      "actualCount": 7,
+      "undocumentLines": [
+        23,
+        22
+      ]
+    },
+    "js/features/common/employees_table/controller/EmployeesTableController.js": {
+      "expectCount": 9,
+      "actualCount": 5,
+      "undocumentLines": [
+        14,
+        10,
+        15,
+        13
+      ]
+    },
+    "js/features/common/employees_table/directives/EmployeesTableDirective.js": {
+      "expectCount": 8,
+      "actualCount": 3,
+      "undocumentLines": [
+        22,
+        25,
+        26,
+        21,
+        20
+      ]
+    },
+    "js/features/calcs/main.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        20,
+        26
+      ]
+    },
+    "js/features/common/employees_table/main.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        29
+      ]
+    },
+    "js/features/about/main.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        29
+      ]
+    },
+    "js/features/employees/main.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        25
+      ]
+    },
+    "js/features/common/three_inputs/main.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "js/features/common/phone_input/main.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "js/features/home/main.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        19,
+        26,
+        21,
+        28,
+        23
+      ]
+    },
+    "js/features/common/currency_input/main.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "js/fw/lib/FeatureBase.js": {
+      "expectCount": 14,
+      "actualCount": 0,
+      "undocumentLines": [
+        12,
+        29,
+        24,
+        14,
+        19,
+        22,
+        32,
+        16,
+        20,
+        36,
+        23,
+        17,
+        25,
+        21
+      ]
+    },
+    "js/features/common/directives/FooterDirective.js": {
+      "expectCount": 6,
+      "actualCount": 3,
+      "undocumentLines": [
+        17,
+        16,
+        15
+      ]
+    },
+    "js/features/home/controller/HomeController.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "js/features/home/directives/HomeDirective.js": {
+      "expectCount": 7,
+      "actualCount": 3,
+      "undocumentLines": [
+        28,
+        29,
+        27,
+        26
+      ]
+    },
+    "js/fw/lib/InitBase.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        12,
+        16,
+        13,
+        20
+      ]
+    },
+    "js/fw/init/Body.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        31
+      ]
+    },
+    "js/fw/init/Header.js": {
+      "expectCount": 7,
+      "actualCount": 5,
+      "undocumentLines": [
+        14,
+        21
+      ]
+    },
+    "js/fw/init/Validator.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "js/features/common/directives/TopNavbarDirective.js": {
+      "expectCount": 6,
+      "actualCount": 3,
+      "undocumentLines": [
+        17,
+        16,
+        15
+      ]
+    },
+    "js/features/common/phone_input/directives/PhoneInputDirective.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        12,
+        11
+      ]
+    },
+    "js/fw/service/Utils.js": {
+      "expectCount": 6,
+      "actualCount": 4,
+      "undocumentLines": [
+        42,
+        111
+      ]
+    },
+    "js/fw/lib/ServiceBase.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        15,
+        12,
+        21,
+        16,
+        14,
+        17,
+        25
+      ]
+    },
+    "js/features/common/three_inputs/directives/ThreeInputsDirective.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        15,
+        16
+      ]
+    },
+    "js/fw/lib/Omit.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        26
+      ]
+    },
+    "js/fw/lib/Pluck.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    }
+  }
+}

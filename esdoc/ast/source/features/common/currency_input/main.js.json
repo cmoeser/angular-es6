@@ -1,0 +1,899 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          324,
+          336
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        324,
+        337
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 13
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *   Defines a CurrencyInput feature\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+          "range": [
+            0,
+            322
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "FeatureBase",
+            "range": [
+              348,
+              359
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 7
+              },
+              "end": {
+                "line": 13,
+                "column": 18
+              }
+            }
+          },
+          "range": [
+            348,
+            359
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 18
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "lib/FeatureBase",
+        "raw": "'lib/FeatureBase'",
+        "range": [
+          365,
+          382
+        ],
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 24
+          },
+          "end": {
+            "line": 13,
+            "column": 41
+          }
+        }
+      },
+      "range": [
+        341,
+        383
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "CurrencyInputDirective",
+            "range": [
+              392,
+              414
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 7
+              },
+              "end": {
+                "line": 14,
+                "column": 29
+              }
+            }
+          },
+          "range": [
+            392,
+            414
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 29
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./directives/CurrencyInputDirective",
+        "raw": "'./directives/CurrencyInputDirective'",
+        "range": [
+          420,
+          457
+        ],
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 35
+          },
+          "end": {
+            "line": 14,
+            "column": 72
+          }
+        }
+      },
+      "range": [
+        385,
+        458
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 73
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * Main class for a employee table component\r\n ",
+          "range": [
+            460,
+            514
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "Feature",
+          "range": [
+            537,
+            544
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 21
+            },
+            "end": {
+              "line": 18,
+              "column": 28
+            }
+          }
+        },
+        "superClass": {
+          "type": "Identifier",
+          "name": "FeatureBase",
+          "range": [
+            553,
+            564
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 37
+            },
+            "end": {
+              "line": 18,
+              "column": 48
+            }
+          }
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  631,
+                  642
+                ],
+                "loc": {
+                  "start": {
+                    "line": 22,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Super",
+                          "range": [
+                            650,
+                            655
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 23,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 23,
+                              "column": 7
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "CurrencyInput",
+                            "raw": "'CurrencyInput'",
+                            "range": [
+                              656,
+                              671
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 23,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 23,
+                                "column": 23
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          650,
+                          672
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 23,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 23,
+                            "column": 24
+                          }
+                        }
+                      },
+                      "range": [
+                        650,
+                        673
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 23,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 23,
+                          "column": 25
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    645,
+                    677
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 24,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  642,
+                  677
+                ],
+                "loc": {
+                  "start": {
+                    "line": 22,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                631,
+                677
+              ],
+              "loc": {
+                "start": {
+                  "line": 22,
+                  "column": 1
+                },
+                "end": {
+                  "line": 24,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * COnstructor function for CurrencyInput class\r\n\t ",
+                  "range": [
+                    569,
+                    628
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+                  "range": [
+                    680,
+                    805
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 25,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "execute",
+                "range": [
+                  808,
+                  815
+                ],
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 8
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "ThisExpression",
+                            "range": [
+                              825,
+                              829
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 29,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 6
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "directive",
+                            "range": [
+                              830,
+                              839
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 29,
+                                "column": 7
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 16
+                              }
+                            }
+                          },
+                          "range": [
+                            825,
+                            839
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 29,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 29,
+                              "column": 16
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "currencyInputDirective",
+                            "raw": "'currencyInputDirective'",
+                            "range": [
+                              840,
+                              864
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 29,
+                                "column": 17
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 41
+                              }
+                            }
+                          },
+                          {
+                            "type": "ArrowFunctionExpression",
+                            "id": null,
+                            "params": [],
+                            "body": {
+                              "type": "NewExpression",
+                              "callee": {
+                                "type": "Identifier",
+                                "name": "CurrencyInputDirective",
+                                "range": [
+                                  876,
+                                  898
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 29,
+                                    "column": 53
+                                  },
+                                  "end": {
+                                    "line": 29,
+                                    "column": 75
+                                  }
+                                }
+                              },
+                              "arguments": [],
+                              "range": [
+                                872,
+                                900
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 29,
+                                  "column": 49
+                                },
+                                "end": {
+                                  "line": 29,
+                                  "column": 77
+                                }
+                              }
+                            },
+                            "generator": false,
+                            "expression": true,
+                            "range": [
+                              866,
+                              900
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 29,
+                                "column": 43
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 77
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          825,
+                          901
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 29,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 29,
+                            "column": 78
+                          }
+                        }
+                      },
+                      "range": [
+                        825,
+                        902
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 29,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 29,
+                          "column": 79
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    818,
+                    906
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 28,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  815,
+                  906
+                ],
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                808,
+                906
+              ],
+              "loc": {
+                "start": {
+                  "line": 28,
+                  "column": 1
+                },
+                "end": {
+                  "line": 30,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+                  "range": [
+                    680,
+                    805
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 25,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            }
+          ],
+          "range": [
+            565,
+            909
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 49
+            },
+            "end": {
+              "line": 31,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          531,
+          909
+        ],
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 15
+          },
+          "end": {
+            "line": 31,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\r\n * Main class for a employee table component\r\n ",
+            "range": [
+              460,
+              514
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 0
+              },
+              "end": {
+                "line": 17,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        516,
+        909
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * Main class for a employee table component\r\n ",
+          "range": [
+            460,
+            514
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    324,
+    909
+  ],
+  "loc": {
+    "start": {
+      "line": 11,
+      "column": 0
+    },
+    "end": {
+      "line": 31,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *   Defines a CurrencyInput feature\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+      "range": [
+        0,
+        322
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n * Main class for a employee table component\r\n ",
+      "range": [
+        460,
+        514
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * COnstructor function for CurrencyInput class\r\n\t ",
+      "range": [
+        569,
+        628
+      ],
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "line": 21,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+      "range": [
+        680,
+        805
+      ],
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 1
+        },
+        "end": {
+          "line": 27,
+          "column": 4
+        }
+      }
+    }
+  ]
+}

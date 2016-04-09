@@ -1,0 +1,1072 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          325,
+          337
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        325,
+        338
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 13
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *   Defines a EmployeesTable feature\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+          "range": [
+            0,
+            323
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "FeatureBase",
+            "range": [
+              349,
+              360
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 7
+              },
+              "end": {
+                "line": 13,
+                "column": 18
+              }
+            }
+          },
+          "range": [
+            349,
+            360
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 18
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "lib/FeatureBase",
+        "raw": "'lib/FeatureBase'",
+        "range": [
+          366,
+          383
+        ],
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 24
+          },
+          "end": {
+            "line": 13,
+            "column": 41
+          }
+        }
+      },
+      "range": [
+        342,
+        384
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ThreeInputsDirective",
+            "range": [
+              393,
+              413
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 7
+              },
+              "end": {
+                "line": 14,
+                "column": 27
+              }
+            }
+          },
+          "range": [
+            393,
+            413
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./directives/ThreeInputsDirective",
+        "raw": "'./directives/ThreeInputsDirective'",
+        "range": [
+          419,
+          454
+        ],
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 33
+          },
+          "end": {
+            "line": 14,
+            "column": 68
+          }
+        }
+      },
+      "range": [
+        386,
+        455
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 69
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * Main class for a employee table component\r\n ",
+          "range": [
+            457,
+            511
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "Feature",
+          "range": [
+            534,
+            541
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 21
+            },
+            "end": {
+              "line": 18,
+              "column": 28
+            }
+          }
+        },
+        "superClass": {
+          "type": "Identifier",
+          "name": "FeatureBase",
+          "range": [
+            550,
+            561
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 37
+            },
+            "end": {
+              "line": 18,
+              "column": 48
+            }
+          }
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  629,
+                  640
+                ],
+                "loc": {
+                  "start": {
+                    "line": 22,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Super",
+                          "range": [
+                            648,
+                            653
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 23,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 23,
+                              "column": 7
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "ThreeInputs",
+                            "raw": "'ThreeInputs'",
+                            "range": [
+                              654,
+                              667
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 23,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 23,
+                                "column": 21
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          648,
+                          668
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 23,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 23,
+                            "column": 22
+                          }
+                        }
+                      },
+                      "range": [
+                        648,
+                        669
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 23,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 23,
+                          "column": 23
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    643,
+                    673
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 24,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  640,
+                  673
+                ],
+                "loc": {
+                  "start": {
+                    "line": 22,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                629,
+                673
+              ],
+              "loc": {
+                "start": {
+                  "line": 22,
+                  "column": 1
+                },
+                "end": {
+                  "line": 24,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * COnstructor function for EmployeesTable class\r\n\t ",
+                  "range": [
+                    566,
+                    626
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * [[Description]]\r\n\t ",
+                  "range": [
+                    676,
+                    706
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 25,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "beforeStart",
+                "range": [
+                  709,
+                  720
+                ],
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "range": [
+                    723,
+                    726
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 28,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 28,
+                      "column": 18
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  720,
+                  726
+                ],
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 18
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                709,
+                726
+              ],
+              "loc": {
+                "start": {
+                  "line": 28,
+                  "column": 1
+                },
+                "end": {
+                  "line": 28,
+                  "column": 18
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * [[Description]]\r\n\t ",
+                  "range": [
+                    676,
+                    706
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 25,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+                  "range": [
+                    729,
+                    854
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 31,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "execute",
+                "range": [
+                  857,
+                  864
+                ],
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 8
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "ThisExpression",
+                            "range": [
+                              872,
+                              876
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 33,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 33,
+                                "column": 6
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "directive",
+                            "range": [
+                              877,
+                              886
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 33,
+                                "column": 7
+                              },
+                              "end": {
+                                "line": 33,
+                                "column": 16
+                              }
+                            }
+                          },
+                          "range": [
+                            872,
+                            886
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 33,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 33,
+                              "column": 16
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "threeInputsDirective",
+                            "raw": "'threeInputsDirective'",
+                            "range": [
+                              887,
+                              909
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 33,
+                                "column": 17
+                              },
+                              "end": {
+                                "line": 33,
+                                "column": 39
+                              }
+                            }
+                          },
+                          {
+                            "type": "ArrowFunctionExpression",
+                            "id": null,
+                            "params": [
+                              {
+                                "type": "Identifier",
+                                "name": "$parse",
+                                "range": [
+                                  912,
+                                  918
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 33,
+                                    "column": 42
+                                  },
+                                  "end": {
+                                    "line": 33,
+                                    "column": 48
+                                  }
+                                }
+                              }
+                            ],
+                            "body": {
+                              "type": "NewExpression",
+                              "callee": {
+                                "type": "Identifier",
+                                "name": "ThreeInputsDirective",
+                                "range": [
+                                  927,
+                                  947
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 33,
+                                    "column": 57
+                                  },
+                                  "end": {
+                                    "line": 33,
+                                    "column": 77
+                                  }
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "$parse",
+                                  "range": [
+                                    948,
+                                    954
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 33,
+                                      "column": 78
+                                    },
+                                    "end": {
+                                      "line": 33,
+                                      "column": 84
+                                    }
+                                  }
+                                }
+                              ],
+                              "range": [
+                                923,
+                                955
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 33,
+                                  "column": 53
+                                },
+                                "end": {
+                                  "line": 33,
+                                  "column": 85
+                                }
+                              }
+                            },
+                            "generator": false,
+                            "expression": true,
+                            "range": [
+                              911,
+                              955
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 33,
+                                "column": 41
+                              },
+                              "end": {
+                                "line": 33,
+                                "column": 85
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          872,
+                          956
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 33,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 33,
+                            "column": 86
+                          }
+                        }
+                      },
+                      "range": [
+                        872,
+                        957
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 33,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 33,
+                          "column": 87
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    867,
+                    965
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 32,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 36,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  864,
+                  965
+                ],
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                857,
+                965
+              ],
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 1
+                },
+                "end": {
+                  "line": 36,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+                  "range": [
+                    729,
+                    854
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 31,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            }
+          ],
+          "range": [
+            562,
+            968
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 49
+            },
+            "end": {
+              "line": 37,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          528,
+          968
+        ],
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 15
+          },
+          "end": {
+            "line": 37,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\r\n * Main class for a employee table component\r\n ",
+            "range": [
+              457,
+              511
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 0
+              },
+              "end": {
+                "line": 17,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        513,
+        968
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * Main class for a employee table component\r\n ",
+          "range": [
+            457,
+            511
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    325,
+    968
+  ],
+  "loc": {
+    "start": {
+      "line": 11,
+      "column": 0
+    },
+    "end": {
+      "line": 37,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *   Defines a EmployeesTable feature\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+      "range": [
+        0,
+        323
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n * Main class for a employee table component\r\n ",
+      "range": [
+        457,
+        511
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * COnstructor function for EmployeesTable class\r\n\t ",
+      "range": [
+        566,
+        626
+      ],
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 1
+        },
+        "end": {
+          "line": 21,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * [[Description]]\r\n\t ",
+      "range": [
+        676,
+        706
+      ],
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 1
+        },
+        "end": {
+          "line": 27,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+      "range": [
+        729,
+        854
+      ],
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 1
+        },
+        "end": {
+          "line": 31,
+          "column": 4
+        }
+      }
+    }
+  ]
+}

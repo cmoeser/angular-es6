@@ -1,0 +1,1410 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          325,
+          337
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        325,
+        338
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 13
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *   Defines a EmployeesTable feature\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+          "range": [
+            0,
+            323
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "FeatureBase",
+            "range": [
+              349,
+              360
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 7
+              },
+              "end": {
+                "line": 13,
+                "column": 18
+              }
+            }
+          },
+          "range": [
+            349,
+            360
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 18
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "lib/FeatureBase",
+        "raw": "'lib/FeatureBase'",
+        "range": [
+          366,
+          383
+        ],
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 24
+          },
+          "end": {
+            "line": 13,
+            "column": 41
+          }
+        }
+      },
+      "range": [
+        342,
+        384
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "EmployeesTableController",
+            "range": [
+              393,
+              417
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 7
+              },
+              "end": {
+                "line": 14,
+                "column": 31
+              }
+            }
+          },
+          "range": [
+            393,
+            417
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./controller/EmployeesTableController",
+        "raw": "'./controller/EmployeesTableController'",
+        "range": [
+          423,
+          462
+        ],
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 37
+          },
+          "end": {
+            "line": 14,
+            "column": 76
+          }
+        }
+      },
+      "range": [
+        386,
+        463
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 77
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "EmployeesTableDirective",
+            "range": [
+              472,
+              495
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 7
+              },
+              "end": {
+                "line": 15,
+                "column": 30
+              }
+            }
+          },
+          "range": [
+            472,
+            495
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 30
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./directives/EmployeesTableDirective",
+        "raw": "'./directives/EmployeesTableDirective'",
+        "range": [
+          501,
+          539
+        ],
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 36
+          },
+          "end": {
+            "line": 15,
+            "column": 74
+          }
+        }
+      },
+      "range": [
+        465,
+        540
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 75
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "EmployeesService",
+            "range": [
+              549,
+              565
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 7
+              },
+              "end": {
+                "line": 16,
+                "column": 23
+              }
+            }
+          },
+          "range": [
+            549,
+            565
+          ],
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 23
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "fw/service/EmployeesService",
+        "raw": "'fw/service/EmployeesService'",
+        "range": [
+          571,
+          600
+        ],
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 29
+          },
+          "end": {
+            "line": 16,
+            "column": 58
+          }
+        }
+      },
+      "range": [
+        542,
+        601
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 59
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * Main class for a employee table component\r\n ",
+          "range": [
+            605,
+            659
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "Feature",
+          "range": [
+            682,
+            689
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 21
+            },
+            "end": {
+              "line": 21,
+              "column": 28
+            }
+          }
+        },
+        "superClass": {
+          "type": "Identifier",
+          "name": "FeatureBase",
+          "range": [
+            698,
+            709
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 37
+            },
+            "end": {
+              "line": 21,
+              "column": 48
+            }
+          }
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  777,
+                  788
+                ],
+                "loc": {
+                  "start": {
+                    "line": 25,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 25,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Super",
+                          "range": [
+                            796,
+                            801
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 26,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 26,
+                              "column": 7
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "EmployeesTable",
+                            "raw": "'EmployeesTable'",
+                            "range": [
+                              802,
+                              818
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 26,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 26,
+                                "column": 24
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          796,
+                          819
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 26,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 26,
+                            "column": 25
+                          }
+                        }
+                      },
+                      "range": [
+                        796,
+                        820
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 26,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 26,
+                          "column": 26
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    791,
+                    824
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 25,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  788,
+                  824
+                ],
+                "loc": {
+                  "start": {
+                    "line": 25,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 27,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                777,
+                824
+              ],
+              "loc": {
+                "start": {
+                  "line": 25,
+                  "column": 1
+                },
+                "end": {
+                  "line": 27,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * COnstructor function for EmployeesTable class\r\n\t ",
+                  "range": [
+                    714,
+                    774
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 24,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "beforeStart",
+                "range": [
+                  829,
+                  840
+                ],
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "range": [
+                    843,
+                    845
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 17
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  840,
+                  845
+                ],
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 17
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                829,
+                845
+              ],
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 1
+                },
+                "end": {
+                  "line": 29,
+                  "column": 17
+                }
+              },
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+                  "range": [
+                    848,
+                    973
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "execute",
+                "range": [
+                  976,
+                  983
+                ],
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 8
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "ThisExpression",
+                            "range": [
+                              991,
+                              995
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 34,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 34,
+                                "column": 6
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "factory",
+                            "range": [
+                              996,
+                              1003
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 34,
+                                "column": 7
+                              },
+                              "end": {
+                                "line": 34,
+                                "column": 14
+                              }
+                            }
+                          },
+                          "range": [
+                            991,
+                            1003
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 34,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 34,
+                              "column": 14
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "EmployeesService",
+                            "raw": "'EmployeesService'",
+                            "range": [
+                              1004,
+                              1022
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 34,
+                                "column": 15
+                              },
+                              "end": {
+                                "line": 34,
+                                "column": 33
+                              }
+                            }
+                          },
+                          {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "Identifier",
+                              "name": "EmployeesService",
+                              "range": [
+                                1024,
+                                1040
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 34,
+                                  "column": 35
+                                },
+                                "end": {
+                                  "line": 34,
+                                  "column": 51
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "EmployeesFactory",
+                              "range": [
+                                1041,
+                                1057
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 34,
+                                  "column": 52
+                                },
+                                "end": {
+                                  "line": 34,
+                                  "column": 68
+                                }
+                              }
+                            },
+                            "range": [
+                              1024,
+                              1057
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 34,
+                                "column": 35
+                              },
+                              "end": {
+                                "line": 34,
+                                "column": 68
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          991,
+                          1058
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 34,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 34,
+                            "column": 69
+                          }
+                        }
+                      },
+                      "range": [
+                        991,
+                        1059
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 34,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 34,
+                          "column": 70
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "ThisExpression",
+                            "range": [
+                              1063,
+                              1067
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 6
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "controller",
+                            "range": [
+                              1068,
+                              1078
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 7
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 17
+                              }
+                            }
+                          },
+                          "range": [
+                            1063,
+                            1078
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 35,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 35,
+                              "column": 17
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "EmployeeTableController",
+                            "raw": "'EmployeeTableController'",
+                            "range": [
+                              1079,
+                              1104
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 18
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 43
+                              }
+                            }
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "EmployeesTableController",
+                            "range": [
+                              1106,
+                              1130
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 45
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 69
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          1063,
+                          1131
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 35,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 35,
+                            "column": 70
+                          }
+                        }
+                      },
+                      "range": [
+                        1063,
+                        1132
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 35,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 35,
+                          "column": 71
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "ThisExpression",
+                            "range": [
+                              1136,
+                              1140
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 36,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 36,
+                                "column": 6
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "directive",
+                            "range": [
+                              1141,
+                              1150
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 36,
+                                "column": 7
+                              },
+                              "end": {
+                                "line": 36,
+                                "column": 16
+                              }
+                            }
+                          },
+                          "range": [
+                            1136,
+                            1150
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 36,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 36,
+                              "column": 16
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "employeeTableDirective",
+                            "raw": "'employeeTableDirective'",
+                            "range": [
+                              1151,
+                              1175
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 36,
+                                "column": 17
+                              },
+                              "end": {
+                                "line": 36,
+                                "column": 41
+                              }
+                            }
+                          },
+                          {
+                            "type": "ArrowFunctionExpression",
+                            "id": null,
+                            "params": [],
+                            "body": {
+                              "type": "NewExpression",
+                              "callee": {
+                                "type": "Identifier",
+                                "name": "EmployeesTableDirective",
+                                "range": [
+                                  1187,
+                                  1210
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 36,
+                                    "column": 53
+                                  },
+                                  "end": {
+                                    "line": 36,
+                                    "column": 76
+                                  }
+                                }
+                              },
+                              "arguments": [],
+                              "range": [
+                                1183,
+                                1212
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 36,
+                                  "column": 49
+                                },
+                                "end": {
+                                  "line": 36,
+                                  "column": 78
+                                }
+                              }
+                            },
+                            "generator": false,
+                            "expression": true,
+                            "range": [
+                              1177,
+                              1212
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 36,
+                                "column": 43
+                              },
+                              "end": {
+                                "line": 36,
+                                "column": 78
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          1136,
+                          1213
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 36,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 36,
+                            "column": 79
+                          }
+                        }
+                      },
+                      "range": [
+                        1136,
+                        1214
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 36,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 36,
+                          "column": 80
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    986,
+                    1222
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 33,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 39,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  983,
+                  1222
+                ],
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 39,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                976,
+                1222
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 1
+                },
+                "end": {
+                  "line": 39,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+                  "range": [
+                    848,
+                    973
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            }
+          ],
+          "range": [
+            710,
+            1225
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 49
+            },
+            "end": {
+              "line": 40,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          676,
+          1225
+        ],
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 15
+          },
+          "end": {
+            "line": 40,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\r\n * Main class for a employee table component\r\n ",
+            "range": [
+              605,
+              659
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 0
+              },
+              "end": {
+                "line": 20,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        661,
+        1225
+      ],
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * Main class for a employee table component\r\n ",
+          "range": [
+            605,
+            659
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    325,
+    1225
+  ],
+  "loc": {
+    "start": {
+      "line": 11,
+      "column": 0
+    },
+    "end": {
+      "line": 40,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *   Defines a EmployeesTable feature\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+      "range": [
+        0,
+        323
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n * Main class for a employee table component\r\n ",
+      "range": [
+        605,
+        659
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * COnstructor function for EmployeesTable class\r\n\t ",
+      "range": [
+        714,
+        774
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "end": {
+          "line": 24,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * Executes feature properties, assigns service, controller, and creates new isntance of directive and assigns it\r\n\t ",
+      "range": [
+        848,
+        973
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 1
+        },
+        "end": {
+          "line": 32,
+          "column": 4
+        }
+      }
+    }
+  ]
+}

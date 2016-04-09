@@ -1,0 +1,607 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          316,
+          328
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        316,
+        329
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 13
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *  Defines a HomeController\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+          "range": [
+            0,
+            314
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * HomeController a controller for the home feature/tab.\r\n ",
+          "range": [
+            331,
+            397
+          ],
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "HomeController",
+          "range": [
+            420,
+            434
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 21
+            },
+            "end": {
+              "line": 15,
+              "column": 35
+            }
+          }
+        },
+        "superClass": null,
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  493,
+                  504
+                ],
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "VariableDeclaration",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "id": {
+                            "type": "Identifier",
+                            "name": "vm",
+                            "range": [
+                              516,
+                              518
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 20,
+                                "column": 6
+                              },
+                              "end": {
+                                "line": 20,
+                                "column": 8
+                              }
+                            }
+                          },
+                          "init": {
+                            "type": "ThisExpression",
+                            "range": [
+                              521,
+                              525
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 20,
+                                "column": 11
+                              },
+                              "end": {
+                                "line": 20,
+                                "column": 15
+                              }
+                            }
+                          },
+                          "range": [
+                            516,
+                            525
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 20,
+                              "column": 6
+                            },
+                            "end": {
+                              "line": 20,
+                              "column": 15
+                            }
+                          }
+                        }
+                      ],
+                      "kind": "var",
+                      "range": [
+                        512,
+                        526
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 20,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 20,
+                          "column": 16
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    507,
+                    532
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 21,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  504,
+                  532
+                ],
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 21,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                493,
+                532
+              ],
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 1
+                },
+                "end": {
+                  "line": 21,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Home controller constructor function\r\n\t ",
+                  "range": [
+                    439,
+                    490
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 16,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 18,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Returns name of HomeController\r\n\t * @returns {string} - 'HomeController'\r\n\t ",
+                  "range": [
+                    535,
+                    622
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 25,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "run",
+                "range": [
+                  625,
+                  628
+                ],
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 4
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "Literal",
+                        "value": "HomeController",
+                        "raw": "'HomeController'",
+                        "range": [
+                          643,
+                          659
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 27,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 27,
+                            "column": 25
+                          }
+                        }
+                      },
+                      "range": [
+                        636,
+                        660
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 27,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 27,
+                          "column": 26
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    631,
+                    664
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 26,
+                      "column": 7
+                    },
+                    "end": {
+                      "line": 28,
+                      "column": 2
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  628,
+                  664
+                ],
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 2
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                625,
+                664
+              ],
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 1
+                },
+                "end": {
+                  "line": 28,
+                  "column": 2
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\r\n\t * Returns name of HomeController\r\n\t * @returns {string} - 'HomeController'\r\n\t ",
+                  "range": [
+                    535,
+                    622
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 25,
+                      "column": 4
+                    }
+                  }
+                }
+              ],
+              "static": false
+            }
+          ],
+          "range": [
+            435,
+            668
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 36
+            },
+            "end": {
+              "line": 29,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          414,
+          668
+        ],
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 15
+          },
+          "end": {
+            "line": 29,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\r\n * HomeController a controller for the home feature/tab.\r\n ",
+            "range": [
+              331,
+              397
+            ],
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 0
+              },
+              "end": {
+                "line": 14,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        399,
+        668
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n * HomeController a controller for the home feature/tab.\r\n ",
+          "range": [
+            331,
+            397
+          ],
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    316,
+    668
+  ],
+  "loc": {
+    "start": {
+      "line": 11,
+      "column": 0
+    },
+    "end": {
+      "line": 29,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\r\n * ******************************************************************************************************\r\n *\r\n *  Defines a HomeController\r\n *\r\n *  @author  Chip\r\n * @date    March,  13,  2016\r\n *\r\n * ******************************************************************************************************\r\n ",
+      "range": [
+        0,
+        314
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n * HomeController a controller for the home feature/tab.\r\n ",
+      "range": [
+        331,
+        397
+      ],
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * Home controller constructor function\r\n\t ",
+      "range": [
+        439,
+        490
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 1
+        },
+        "end": {
+          "line": 18,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n\t * Returns name of HomeController\r\n\t * @returns {string} - 'HomeController'\r\n\t ",
+      "range": [
+        535,
+        622
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "end": {
+          "line": 25,
+          "column": 4
+        }
+      }
+    }
+  ]
+}

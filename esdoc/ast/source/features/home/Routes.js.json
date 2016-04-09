@@ -1,0 +1,426 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "abstract",
+                  "range": [
+                    164,
+                    172
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 10
+                    }
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": true,
+                  "raw": "true",
+                  "range": [
+                    174,
+                    178
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 12
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 16
+                    }
+                  }
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "range": [
+                  164,
+                  178
+                ],
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 16
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "name",
+                  "range": [
+                    183,
+                    187
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 6
+                    }
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "home",
+                  "raw": "'home'",
+                  "range": [
+                    189,
+                    195
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 14
+                    }
+                  }
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "range": [
+                  183,
+                  195
+                ],
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 14
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "url",
+                  "range": [
+                    200,
+                    203
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 5
+                    }
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "/home",
+                  "raw": "'/home'",
+                  "range": [
+                    205,
+                    212
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 7
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 14
+                    }
+                  }
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "range": [
+                  200,
+                  212
+                ],
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 14
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "isDefault",
+                  "range": [
+                    217,
+                    226
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 11
+                    }
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": true,
+                  "raw": "true",
+                  "range": [
+                    228,
+                    232
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 13
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 17
+                    }
+                  }
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "range": [
+                  217,
+                  232
+                ],
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 17
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "template",
+                  "range": [
+                    237,
+                    245
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 16,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 16,
+                      "column": 10
+                    }
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "<home-directive></home-directive>",
+                  "raw": "'<home-directive></home-directive>'",
+                  "range": [
+                    247,
+                    282
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 16,
+                      "column": 12
+                    },
+                    "end": {
+                      "line": 16,
+                      "column": 47
+                    }
+                  }
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "range": [
+                  237,
+                  282
+                ],
+                "loc": {
+                  "start": {
+                    "line": 16,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 47
+                  }
+                }
+              }
+            ],
+            "range": [
+              159,
+              288
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 1
+              },
+              "end": {
+                "line": 17,
+                "column": 4
+              }
+            }
+          }
+        ],
+        "range": [
+          155,
+          293
+        ],
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 15
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\r\n *\r\n *  Routes module expose route information used in home feature\r\n *\r\n *  @author  Chip\r\n *  @date    March,  13,  2016\r\n *\r\n ",
+            "range": [
+              0,
+              136
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        140,
+        294
+      ],
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\r\n *\r\n *  Routes module expose route information used in home feature\r\n *\r\n *  @author  Chip\r\n *  @date    March,  13,  2016\r\n *\r\n ",
+          "range": [
+            0,
+            136
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    140,
+    294
+  ],
+  "loc": {
+    "start": {
+      "line": 10,
+      "column": 0
+    },
+    "end": {
+      "line": 19,
+      "column": 2
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\r\n *\r\n *  Routes module expose route information used in home feature\r\n *\r\n *  @author  Chip\r\n *  @date    March,  13,  2016\r\n *\r\n ",
+      "range": [
+        0,
+        136
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

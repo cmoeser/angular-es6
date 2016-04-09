@@ -1,0 +1,18 @@
+<div class="flex-box flex-box-big">
+	<h2>1) About</h2>
+	<h3>Url Variables</h3>
+	<p>{{vm.company_name}} {{vm.company_id}}</p>
+	<h3>2) Selected Employee</h3>
+	<p><input type="text" ng-model="vm.employee_name" ng-readonly="true" placeholder="Please select a employee from the 'Employees' link for a example of data between controllers" class="read-only"></p>
+
+	<h3>5) Phone Formatter</h3>
+	<input type="text" placeholder="Enter numbers, focus out (blur) for conversion" ng-model="phone" phone-input-directive/>
+	<h3>6) Currency Formatter</h3>
+	<input type="text" ng-currency placeholder="Enter Numbers, focus out (blur) for currency conversion" ng-model="currency" currency-input-directive/>
+	<h3>8) Three Inputs</h3>
+	<form>
+		<input type="text" maxlength="5" three-inputs-directive ng-model="iNumber" ng-keyup="getCursorPos($event);inputChange();" ng-click="getCursorPos($event)">
+		<input type="text" maxlength="5" three-inputs-directive ng-model="iNumber" ng-keyup="getCursorPos($event);inputChange();" ng-click="getCursorPos($event)">
+		<input type="text" maxlength="5" three-inputs-directive ng-model="iNumber" ng-keyup="getCursorPos($event);inputChange();" ng-click="getCursorPos($event)">
+	</form>
+</div>
